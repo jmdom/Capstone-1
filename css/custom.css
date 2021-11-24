@@ -1,0 +1,127 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: verdana;
+	color: #0b4f6c;
+}
+
+
+/*Navbar format*/
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	background-color: #CBBFBB;
+	padding: 0px !important; 
+}
+
+.navbar-brand{
+	color: #516fb0 !important;
+}
+
+.navbar-nav li{
+	padding: 0 15px;
+}
+
+.navbar-nav li a{
+	color: #516fb0 !important;
+	float: right;
+	font-weight: 800;
+}
+
+
+/*End of Navbar format*/
+
+/*Introduction Format*/
+
+#introduction{
+	background-color:#CBBFBB ;
+	padding: 20%;
+	color: #0b4f6c ;
+}
+
+.introcontent{
+	text-align: center;
+	font-weight: 600;
+}
+
+.btnintro{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2% 0%;
+}
+
+/*End of introduction format*/
+
+/*About me format*/
+#aboutme{
+	background-color: #dddbf1 ;
+	padding: 10%;
+	
+}
+
+.aboutmecontent{
+	text-align: center;
+	padding: 5% 0%;
+	margin: 5%;
+}
+
+.aboutmecard {
+	margin: 5% 5%;
+	padding: 5%;
+}
+
+.imagedefault{
+	height: auto ;
+	max-width: 100%;
+	margin: 5%;
+	padding: 5%;
+}
+/*End of about me format*/
+
+/*My project format*/
+#myproject{
+	background-color: #EEFFDB;
+	padding: 5%;
+	
+}
+
+#myproject2{
+	background-color: #FFF1D0;
+}
+
+.myprojectcardcontent{
+	margin: 5%;
+	line-height: 150%;
+	padding: 10%;
+}
+
+.projectimage{
+	height: auto;
+	max-width: 100%;
+	margin: 3%;
+	padding: 3%;
+	border-radius: 100%;
+	font-weight: 600;
+}
+/*End of my project format*/
+
+/*contact format*/
+#contactsection{
+	background-color: #D3AB9E;
+	padding: 12%;
+}
+
+.contactsection{
+	padding: 5%;
+	line-height: 150%;
+}
+/*End of contact format*/
