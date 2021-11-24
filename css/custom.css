@@ -43,7 +43,8 @@ body{
 
 #introduction{
 	background-color:#CBBFBB ;
-	padding: 20%;
+	padding-top: 15%;
+	padding-bottom: 20%;
 	color: #0b4f6c ;
 }
 
@@ -64,8 +65,9 @@ body{
 /*About me format*/
 #aboutme{
 	background-color: #dddbf1 ;
-	padding: 10%;
-	
+	padding-top: 3%;
+	padding-bottom: 10%;
+
 }
 
 .aboutmecontent{
@@ -82,8 +84,7 @@ body{
 .imagedefault{
 	height: auto ;
 	max-width: 100%;
-	margin: 5%;
-	padding: 5%;
+	padding-right: 5%;
 }
 /*End of about me format*/
 
@@ -117,11 +118,17 @@ body{
 /*contact format*/
 #contactsection{
 	background-color: #D3AB9E;
-	padding: 12%;
+	padding-top: 3%;
+	padding-bottom: 18%;
+	padding-right: 10%;
+	padding-left: 10%;
+
 }
 
-.contactsection{
-	padding: 5%;
+.contactsectioncontent{
 	line-height: 150%;
+	margin-bottom: 5%;
 }
+
+
 /*End of contact format*/
