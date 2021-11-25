@@ -13,13 +13,12 @@ body{
 /*Navbar format*/
 
 #nav-bar{
-	position: sticky;
+	position: top;
 	top: 0;
 	z-index: 10;
 }
 
 .navbar{
-	background-color: #CBBFBB;
 	padding: 0px !important; 
 }
 
@@ -44,10 +43,18 @@ body{
 /*Introduction Format*/
 
 #introduction{
-	background-color:#CBBFBB ;
 	padding-top: 15%;
 	padding-bottom: 20%;
-	color: #0b4f6c ;
+	color: #dfe6f2 ;
+	font-weight: 600;
+}
+
+.introimage{
+	background-image: url('../assets/semicon.jpg') ;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
 }
 
 .introcontent{
@@ -67,11 +74,14 @@ body{
 /*About me format*/
 #aboutme{
 	background-color: #dddbf1 ;
-	padding-top: 5%;
+	padding-top: 10%;
 	padding-bottom: 10%;
 
 }
 
+.aboutbtn{
+	margin: 5%;
+}
 .aboutmecontent{
 	text-align: center;
 	padding: 5% 0%;
@@ -88,6 +98,16 @@ body{
 	height: auto ;
 	max-width: 100%;
 	padding-left: 5%;
+}
+
+.cardcontainer{
+	margin-left: 2%;
+}
+
+.abicon{
+
+	margin-top: 3px;
+	font-size: 2rem;
 }
 /*End of about me format*/
 
