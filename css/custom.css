@@ -13,7 +13,7 @@ body{
 /*Navbar format*/
 
 #nav-bar{
-	position: top;
+	position: sticky;
 	top: 0;
 	z-index: 10;
 }
@@ -92,6 +92,7 @@ body{
 	margin-left: 5%;
 	margin-top: 2%;
 	margin-bottom: 2% ;
+
 }
 
 .imagedefault{
