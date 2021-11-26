@@ -115,14 +115,13 @@ body{
 /*My project format*/
 #myproject{
 	background-color: #EEFFDB;
-	padding-top: 8%;
-	padding-bottom: 2%;
+	padding: 5% 0%;
 	
 }
 
 #myproject2{
 	background-color: #FFF1D0;
-	padding-bottom: 5%;
+	padding: 5% 0%;
 }
 
 .myprojectcardcontent{
